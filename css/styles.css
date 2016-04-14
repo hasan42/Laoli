@@ -1,0 +1,154 @@
+﻿/* ---------------- ------- --------------------- */
+html {
+	height: 100%;
+}
+body {
+    font: 14px 'Roboto Condensed', Arial, sans-serif;
+    color:#000000;
+    line-height: 1.2;
+	background:#eaf2ff url('/images/fon.png');
+	height: 100%;
+}
+
+h1 {
+	font-size:32px;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:10px;
+}
+h2 {
+	font-size:24px;
+	font-weight:bold;
+	text-align:left;
+	margin-top:0;
+}
+h3 {
+	font-size:18px;
+	font-weight:400;
+	margin-top:0;
+}
+a {
+	color:#005bab;
+	text-decoration:underline;
+}
+a:focus {border:0; outline:0; color:inherit;}
+
+.maincontent {
+	margin: 0 auto;
+    min-height: 100%;
+}
+
+.container {
+	background:#ffffff;
+}
+.container.nopadding {
+	padding:0;
+}
+
+.goldbutton {
+	background:#bca157;
+	color:#ffffff;
+	border-radius: 10px;
+	font-size:16px;
+	padding:7px 15px;
+}
+
+/* ---------------- ------- --------------------- */
+
+
+/* ---------------- header ---------------------- */
+
+
+.container.header-wrap  {
+	background:#005bab;
+	padding:15px;
+}
+.header-wrap .tagline {
+	font-size:20px;
+	text-align:left;
+	color:#ffffff;
+	padding-top:15px;
+}
+.header-wrap .logo {
+	color:#ffffff;
+	font-size:20px;
+	text-align:center;
+}
+.header-wrap .info {
+	color:#ffffff;
+	padding-top:15px;
+	text-align:right;
+}
+.header-wrap .info .phone {
+	font-weight:bold;
+	font-size:20px;
+}
+.header-wrap .info .adress {
+	font-size:13px;	
+	padding:5px 0;
+}
+.header-wrap .info .call-me {
+	display:block;
+	float:right;
+	text-decoration:none;
+	margin-top:10px;
+}
+
+ul.menu {
+	padding:10px 0;
+	margin:0 auto;
+	text-align:center;
+}
+ul.menu li {
+	list-style-type:none;
+	display:inline-block;
+	font-size:16px;
+	padding:5px 10px;
+}
+ul.menu li a {
+	
+}
+/* ---------------- /header ---------------------- */
+
+
+/* ---------------- content --------------------- */
+
+.advantages {
+	border-radius: 7px;
+	width:100%;
+	text-align:center;
+	padding:15px;
+	position:relative;
+	background:#005bab;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+/* ---------------- /content --------------------- */
+
+
+/* ---------------- footer ---------------------- */
+
+.hFooter {
+    clear: both;
+    height: 140px;
+}
+
+.footer-wrap {
+	background:#800001;
+	background: -moz-linear-gradient(top, #800001 0%, #660001 100%);
+	background: -webkit-linear-gradient(top, #800001 0%, #660001 100%);
+	background: -o-linear-gradient(top, #800001 0%, #660001 100%);
+	background: -ms-linear-gradient(top, #800001 0%, #660001 100%);
+	background: linear-gradient(top, #800001 0%, #660001 100%);
+    min-height: 140px;
+    margin: -140px auto 0;
+}
+.footer-block {
+	margin-top:20px;
+    color: #ffffff;
+}
+
+/* ---------------- /footer --------------------- */
