@@ -9,7 +9,16 @@ body {
 	background:#eaf2ff url('/images/fon.png');
 	height: 100%;
 }
-
+.shadow {
+	box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.37);
+	-o-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.37);
+	-webkit-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.37);
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
 h1 {
 	font-size:32px;
 	font-weight:bold;
