@@ -21,13 +21,13 @@ body {
 }
 h1 {
 	font-size:32px;
-	font-weight:bold;
+	font-weight:400;
 	text-align:center;
 	margin-bottom:10px;
 }
 h2 {
 	font-size:24px;
-	font-weight:bold;
+	font-weight:400;
 	text-align:left;
 	margin-top:0;
 }
@@ -58,6 +58,13 @@ a:focus {border:0; outline:0; color:inherit;}
 }
 .goldbutton {
 	background:#bca157;
+	color:#ffffff;
+	border-radius: 10px;
+	font-size:16px;
+	padding:7px 15px;
+}
+.bluebutton {
+	background:#005baa;
 	color:#ffffff;
 	border-radius: 10px;
 	font-size:16px;
@@ -179,10 +186,13 @@ ul.menu li a {
 	margin: 15px 0;
 }
 
+
+.services-block {}
 .services-element {
 	position:relative;
 	z-index:10;
 	padding:15px;
+	vertical-align:top;
 }
 .services-element h3 {
 	text-align:center;
@@ -226,6 +236,97 @@ ul.menu li a {
 	position:relative;
 	bottom:15px;
 }
+.services-block .bluebutton {
+	text-decoration:none;
+	margin:30px auto;
+	text-align:center;
+	display:table;
+	font-size:18px;
+	padding:10px 85px;
+}
+
+
+.actions-element {
+	max-height:300px;
+	position:relative;
+}
+.actions-element img {
+	width:100%;
+	height:auto;
+}
+.actions-element .info {
+	color:#ffffff;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.54);
+	max-width:260px;
+	position:absolute;
+	display:block;
+	top:20px;
+	left:60px;
+}
+.actions-element .info h2 {
+	font-weight: bold;
+	margin-top:20px;
+}
+.actions-element .info p {
+	margin-top:20px;
+}
+
+
+.specials-element {
+	padding: 40px 15px;
+}
+.specials-element .info {
+	
+}
+.specials-element .image {
+	float:left;
+	margin:0 20px 20px 0;
+}
+.specials-element .image img {
+	border-radius:10px;
+	width:100%;
+	max-width:150px;
+}
+
+
+.extras-element {
+	padding: 40px 15px;
+	text-align:center;
+}
+.extras-element .info {
+	text-align:center;
+}
+.extras-element .info h2 {
+	text-align:center;
+}
+.extras-element .info .goldbutton {
+	display:none;
+	text-decoration:none;
+}
+.extras-element .image {
+
+}
+.extras-element .image img {
+	border-radius:17px;
+	width:100%;
+	max-width:100px;
+}
+.extras-element:hover {
+	background:#005baa;
+	color:#ffffff;
+	border-radius: 10px;
+}
+.extras-element:hover a {
+	color:#ffffff;
+}
+.extras-element:hover .info .goldbutton {
+	display:block;
+}
+.extras-element:hover .image img {
+	border:2px solid #ffffff;
+}
+
+
 
 /* ---------------- /content --------------------- */
 
