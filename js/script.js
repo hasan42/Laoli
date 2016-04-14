@@ -2,14 +2,11 @@
 	
 	//servicess on index hide-show
 	$('.services-element').mouseenter(function() {
-		$('.services-element .info').show();
-		$('.services-element .contacts').hide();
-		$(this).children('.info').hide();
-		$(this).children('.contacts').fadeIn(200);
+		$('.services-element .info').hide();
+		$(this).children('.info').fadeIn(200);
 	});
 	$('.services-element').mouseleave(function() {
-		$('.services-element .contacts').hide();
-		$('.services-element .info').fadeIn(200);
+		$('.services-element .info').hide();
 	});
 	
 	//partners on index hide-show
@@ -25,22 +22,22 @@
 	});
 	
 	//menu
-	$('ul.menu li').hover(function () {
+	/*$('ul.menu li').hover(function () {
 		clearTimeout($.data(this,'timer'));
 		$('ul',this).stop(true,true).slideDown(200);
 	}, function () {
 		$.data(this,'timer', setTimeout($.proxy(function() {
 			$('ul',this).stop(true,true).slideUp(200);
 		}, this), 100));
-	});
+	});*/
 	
-	$("#show-menu").click(function() {
+	/*$("#show-menu").click(function() {
 		if( $("ul.menu").is(':hidden')){
 			$("ul.menu").slideDown(200);
 		}else{
 			$("ul.menu").slideUp(200);
 		}
-	});
+	});*/
 	
 
 	//vacancies show
