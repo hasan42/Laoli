@@ -131,6 +131,12 @@ $(document).ready(function(){
 		vertical: true
 	});
 	
+	$('.sertificat-slider').slick({
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1
+	});
+	
 	//gallery
 	$(".fancybox").fancybox();
 	

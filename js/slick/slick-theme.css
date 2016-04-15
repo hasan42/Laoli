@@ -39,9 +39,8 @@
 
     color: transparent;
 	border:0;
-    border-bottom: 3px solid #410001;
     outline: none;
-    background: #800001;
+    background: transparent;
 	
 	z-index:500;
 }
@@ -50,7 +49,6 @@
 {
     color: transparent;
     outline: none;
-    background: #410001;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,

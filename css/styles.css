@@ -327,6 +327,17 @@ ul.menu li a {
 }
 
 
+.sertificat-slider {
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+.sertificat-element {
+	text-align:center;
+}
+.sertificat-element a {
+	display:inline-block;
+}
 
 /* ---------------- /content --------------------- */
 
