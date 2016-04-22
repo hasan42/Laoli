@@ -124,12 +124,12 @@ $(document).ready(function(){
 	});
 	
 	//actions index
-	$('.actions-block').slick({
+	/*$('.actions-block').slick({
 		infinite: true,
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		vertical: true
-	});
+	});*/
 	
 	$('.sertificat-slider').slick({
 		infinite: true,
