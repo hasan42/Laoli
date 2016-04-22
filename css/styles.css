@@ -761,6 +761,28 @@ ul.menu li.active a {
 	margin-top:20px;
 }
 
+.reviews-element {
+	text-align:center;
+}
+.reviews-element .image {
+	display:table;
+	position:relative;
+	border:3px solid #ffffff;
+	border-radius: 22px;
+	box-shadow: 0px 4px 13px 0px rgba(0, 0, 2, 0.23),inset 0px 1px 10px 0px rgba(0, 0, 2, 0.1);
+	overflow:hidden;
+	margin:0 auto;
+	max-width:360px;
+	margin:20px 0;
+}
+.reviews-element .image a {
+	
+}
+.reviews-element .image a img {
+	width:100%;
+	height:auto;
+}
+
 
 /* ---------------- /content --------------------- */
 
