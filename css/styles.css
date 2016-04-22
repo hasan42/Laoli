@@ -784,6 +784,36 @@ ul.menu li.active a {
 }
 
 
+.news-block {
+	margin-top:30px;
+}
+.news-info {
+	clear: both;
+    display: block;
+    position: relative;
+	margin-top:40px;
+}
+.news-info .image {
+	float:left;
+	margin:0 20px 20px 0;
+	border:3px #ffffff solid;
+	box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.19),inset 0px 0px 7px 0px rgba(0, 0, 0, 0.39);
+	border-radius:22px;
+	overflow:hidden;
+}
+.news-info .image img {
+	border-radius:22px;
+	width:100%;
+	max-width:150px;
+}
+.news-info .info {
+	position:relative;
+	min-height: 150px;
+	height: 100%;
+}
+
+
+
 /* ---------------- /content --------------------- */
 
 
