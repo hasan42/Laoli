@@ -90,6 +90,11 @@ a:focus {border:0; outline:0; color:inherit;}
 	font-size:18px;
 }
 
+hr {
+	border-color:#cccccc;
+	border-width:2px;
+}
+
 /* ---------------- ------- --------------------- */
 
 
@@ -818,6 +823,29 @@ ul.menu li.active a {
 }
 .article-info {
 	margin-top:40px;
+}
+
+
+.photogallery-block {}
+.photogallery-info {}
+.photo-gallery {
+	padding:0;
+}
+.photo-gallery li {
+	width:142px;
+	height:142px;
+	display:inline-block;
+	list-style-type:none;
+	margin:0 20px 20px 0;
+	overflow:hidden;
+}
+.photo-gallery li:nth-child(5n) {
+	margin:0 0px 20px 0;
+}
+.photo-gallery li a {}
+.photo-gallery li a img {
+	width:100%;
+	height:100%;
 }
 
 
