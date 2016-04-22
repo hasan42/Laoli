@@ -57,7 +57,8 @@ a:focus {border:0; outline:0; color:inherit;}
 	padding:0;
 }
 .container.paddingleftmenu{
-	padding: 0 15px 0 0;
+	padding: 10px 15px 0 0;
+	overflow: hidden;
 }
 .goldbutton {
 	background:#bca157;
@@ -264,10 +265,16 @@ ul.menu li.active a {
 .services-element h3 {
 	text-align:center;
 }
-.services-element .image {}
+.services-element .image {
+	width:210px;
+	height:170px;
+	border:1px solid #cecece;
+	border-radius:15px;
+	overflow:hidden;
+}
 .services-element .image img {
-	border-radius:10px;
 	width:100%;
+	height:auto;
 }
 .services-element .info {
 	display:none;
@@ -313,6 +320,138 @@ ul.menu li.active a {
 	padding:10px 85px;
 }
 
+
+.catalog-block {}
+.catalog-element {
+	position:relative;
+	z-index:10;
+	padding:15px;
+	vertical-align:top;
+}
+.catalog-element .name {
+	text-align:center;
+	height:40px;
+}
+.catalog-element .image {
+	width:210px;
+	height:170px;
+	border:1px solid #cecece;
+	border-radius:15px;
+	overflow:hidden;
+	margin:10px auto;
+	position:relative;
+}
+.catalog-element .image .discount {
+	position:absolute;
+	top:5px;
+	right:5px;
+	background: #bca157;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	color:#ffffff;
+	padding:3px 7px;
+	border-radius:10px;
+	font-size:17px;
+}
+.catalog-element .price {
+	font-weight:bold;
+}
+.catalog-element .price .old {
+	font-size: 14px;
+	text-decoration:line-through;
+	margin-right:10px;
+}
+.catalog-element .price .discount {
+	color:#bca157;
+}
+.catalog-element .image img {
+	width:100%;
+	height:auto;
+}
+.catalog-element .info {
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	min-height:210px;
+	top:0;
+	left:0;
+	z-index:50;
+	background: rgba(0, 91, 170, 0.81);
+	box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.23);
+	-webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.23);
+	-moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.23);
+	-o-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.23);
+	color:#ffffff;
+	padding:20px;
+}
+.catalog-element .info h3 {
+	padding-bottom:10px;
+}
+.catalog-element .info a {
+	color:#ffffff;
+}
+.catalog-element .info p.text {
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.44);
+	min-height: 170px;
+}
+.catalog-element .info .goldbutton {
+	font-size:18px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	position:relative;
+	bottom:15px;
+}
+.catalog-block .bluebutton {
+	text-decoration:none;
+	margin:30px auto;
+	text-align:center;
+	display:table;
+	font-size:18px;
+	padding:10px 85px;
+}
+.catalog-element .info .count {
+	display:block;
+	margin:10px auto;
+	text-align:center;
+}
+.catalog-element .info .count button {
+	border:0;
+	color:#000000;
+	width:25px;
+	height:25px;
+	display:inline-block;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.38);
+	background:#ffffff;
+}
+.catalog-element .info .count button:hover {
+	background:#a9b4be;
+}
+.catalog-element .info .count input {
+	width:25px;
+	height:25px;
+	border:0;
+	color:#000000;
+	display:inline-block;
+	margin:0 1px;
+	box-shadow: inset 0px 1px 7px 0px rgba(4, 62, 113, 0.22);
+	text-align:center;
+}
+.catalog-element .info input.buy {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	background:#bca157 url(/images/buy-white.png) no-repeat right 10px center ;
+	border:0;
+	display:block;
+	bottom:10px;
+	margin:0 auto;
+	text-align:center;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.34);
+	font-size:18px;
+	padding:8px 50px;
+	border-radius:10px;
+}
 
 .actions-element {
 	max-height:300px;

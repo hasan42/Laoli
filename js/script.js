@@ -9,6 +9,15 @@
 		$('.services-element .info').hide();
 	});
 	
+	//catalog on index hide-show
+	$('.catalog-element').mouseenter(function() {
+		$('.catalog-element .info').hide();
+		$(this).children('.info').fadeIn(200);
+	});
+	$('.catalog-element').mouseleave(function() {
+		$('.catalog-element .info').hide();
+	});
+	
 	//partners on index hide-show
 	$('.partners-element').mouseenter(function() {
 		$('.partners-element .no-color').show();
