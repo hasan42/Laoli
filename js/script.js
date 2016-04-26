@@ -31,14 +31,18 @@
 	});
 	
 	//menu
-	/*$('ul.menu li').hover(function () {
+	$('.left-menu ul li').hover(function () {
 		clearTimeout($.data(this,'timer'));
 		$('ul',this).stop(true,true).slideDown(200);
 	}, function () {
 		$.data(this,'timer', setTimeout($.proxy(function() {
-			$('ul',this).stop(true,true).slideUp(200);
+			if( $(this).hasClass("active") ){
+				$('ul',this).stop(true,true).slideDown(200);
+			}else{
+				$('ul',this).stop(true,true).slideUp(200);
+			}
 		}, this), 100));
-	});*/
+	});
 	
 	/*$("#show-menu").click(function() {
 		if( $("ul.menu").is(':hidden')){

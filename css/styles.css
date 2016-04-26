@@ -95,6 +95,14 @@ hr {
 	border-width:2px;
 }
 
+.clearfix {
+	clear:both;
+	display:block;
+	height:40px;
+	width:100%;
+	background:#ffffff;
+}
+
 /* ---------------- ------- --------------------- */
 
 
@@ -186,6 +194,10 @@ ul.menu li.active a {
 .left-menu ul li > ul {
 	background:#1b4467;
 	padding: 5px 5px 10px 30px;
+	display:none;
+}
+.left-menu ul li.active > ul {
+	display:block;
 }
 .left-menu ul li > ul li {
 	background:transparent;
@@ -249,6 +261,39 @@ ul.menu li.active a {
 
 
 /* ---------------- content --------------------- */
+
+.content-image {
+	overflow:hidden;
+	border:3px solid #ffffff;
+	box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.1);
+}
+.content-image img {
+	width:100%;
+}
+
+#basket {
+  background: #bca157 url('/images/cart.png') no-repeat center;
+  box-shadow: 0px 9px 32px 0px rgba(140, 109, 24, 0.31);
+  position: absolute;
+  right: 0;
+  bottom: -46px;
+  width: 66px;
+  height: 66px;
+}
+#basket .count {
+	font-size:10px;
+	border-radius:50%;
+	color:#ffffff;
+	background:#bd1c1c;
+	position:absolute;
+	text-align:center;
+	top:15px;
+	right:15px;
+	padding:1px;
+	min-width:15px;
+	min-height:15px;
+}
+
 
 .advantages {
 	border-radius: 7px;
@@ -599,9 +644,11 @@ ul.menu li.active a {
 	padding:40px 15px;
 }
 
-
+.extras-block {
+	padding: 15px;
+}
 .extras-element {
-	padding: 40px 15px;
+	padding: 20px 15px 60px;
 	text-align:center;
 }
 .extras-element .info {
@@ -640,7 +687,7 @@ ul.menu li.active a {
 
 
 .sertificat-slider {
-	width:90%;
+	width:85%;
 	margin:0 auto;
 	text-align:center;
 }
